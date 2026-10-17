@@ -1,0 +1,340 @@
+{
+  "is_real_model_run": true,
+  "records": [
+    {
+      "request_id": "31f23581-bec4-486d-a51c-97041fa3dd95",
+      "stage": "extract",
+      "timestamp": "2026-10-17T12:14:52.379705+00:00",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "prompt_version": "2026-10-17.v1",
+      "input_hash": "5be9810b2e2270b7811e9879c49aee7201506d426ccfc5e05afe8af5a0951a8a",
+      "status": "completed",
+      "elapsed_seconds": 3.475,
+      "input_tokens": 1917,
+      "cached_input_tokens": 1792,
+      "output_tokens": 843,
+      "estimated_usd": "0.00402165",
+      "error_code": null,
+      "response_id": "resp_05614648908d8df8016ad366bc92c487d0879a3a4183418dc8",
+      "reused": false,
+      "model_output_text": "{\"kind\":\"purchase_limit\",\"facts\":[{\"key\":\"fund_name\",\"value\":\"恒远均衡成长混合型证券投资基金\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":3,\"quote\":\"恒远均衡成长混合型证券投资基金限制大额申购、定期定额投资和转换转入业务的公告\"}]},{\"key\":\"fund_code\",\"value\":\"019001\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":3,\"quote\":\"基金主代码 019001\"}]},{\"key\":\"announcement_date\",\"value\":\"2026-05-06\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":3,\"quote\":\"公告送出日期：2026 年 5 月 6 日\"}]},{\"key\":\"limit_start\",\"value\":\"2026-05-08\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":3,\"quote\":\"限制大额申购起始日 2026 年 5 月 8 日\"},{\"source_id\":\"announcement\",\"page\":3,\"quote\":\"限制大额定期定额投资起始日 2026 年 5 月 8 日\"},{\"source_id\":\"announcement\",\"page\":3,\"quote\":\"限制大额转换转入起始日 2026 年 5 月 8 日\"}]},{\"key\":\"purchase_limit\",\"value\":\"10000\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":3,\"quote\":\"限制申购金额 10,000 元\"}]},{\"key\":\"recurring_limit\",\"value\":\"10000\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":3,\"quote\":\"限制定期定额投资金额 10,000 元\"}]},{\"key\":\"transfer_limit\",\"value\":\"10000\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":4,\"quote\":\"限制转换转入金额 10,000 元\"}]},{\"key\":\"aggregate_limit\",\"value\":\"10000\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":4,\"quote\":\"单日每个基金账户累计申购、定期定额投资和转换转入本基金超过 10,000 元的申请\"},{\"source_id\":\"announcement\",\"page\":4,\"quote\":\"申购、定期定额投资和转换转入的申请金额合并计算\"}]},{\"key\":\"aggregate_scope\",\"value\":\"申购、定期定额投资和转换转入\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":4,\"quote\":\"申购、定期定额投资和转换转入的申请金额合并计算\"}]},{\"key\":\"limit_exclusive\",\"value\":\"是\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":4,\"quote\":\"超过 10,000 元的申请，不含 10,000 元\"}]},{\"key\":\"limit_account_scope\",\"value\":\"单日每个基金账户累计\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":4,\"quote\":\"限制接受单日每个基金账户累计申购、定期定额投资和转换转入本基金超过 10,000 元的申请\"}]},{\"key\":\"rejection_policy\",\"value\":\"有权拒绝相关业务申请\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":4,\"quote\":\"本基金管理人有权拒绝相关业务申请\"}]},{\"key\":\"unaffected_business\",\"value\":\"赎回、转换转出等其他业务照常办理\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":4,\"quote\":\"本基金的赎回、转换转出等其他业务照常办理\"}]},{\"key\":\"resume_date\",\"value\":\"另行公告\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":4,\"quote\":\"具体时间将另行公告\"}]}],\"missing\":[],\"conflicts\":[]}"
+    },
+    {
+      "request_id": "a4eb193e-3df4-4efd-9ad8-bba168310d2a",
+      "stage": "generate",
+      "timestamp": "2026-10-17T12:14:55.855686+00:00",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "prompt_version": "2026-10-17.v1",
+      "input_hash": "7c530146efde618184ee7de90b0d04e7febaa001b51b094fec3e25c3e7d5b497",
+      "status": "completed",
+      "elapsed_seconds": 3.544,
+      "input_tokens": 2001,
+      "cached_input_tokens": 0,
+      "output_tokens": 650,
+      "estimated_usd": "0.00442575",
+      "error_code": null,
+      "response_id": "resp_0012c9e5a2bc0ccc016ad366c025d487d0a8af728b08593370",
+      "reused": false,
+      "model_output_text": "{\"summary\":\"该用户每月定投金额为20,000元。公告显示自2026-05-08起，恒远均衡成长混合型证券投资基金对单日每个基金账户累计申购、定投和转换转入合并限制为10,000元（超过10,000元的申请不予接受），因此若该定投在限制生效后执行，可能受到影响；但不应据此认定必然自动降额、部分成交或扣款失败。恢复原定投金额的具体时间为另行公告。\",\"customer_reply\":\"您好，您原先设置的每月20,000元定投，若在2026-05-08及之后执行，可能会受到本次大额限制影响。公告规定，单日每个基金账户累计申购、定投和转换转入本基金超过10,000元的申请，管理人有权拒绝相关业务申请。由于您提供的是计划金额，实际是否受影响还要看该笔定投的实际执行日及销售机构的受理结果。关于恢复原来的定投金额，公告仅说明“具体时间将另行公告”，目前还不能确定恢复日期。\",\"faqs\":[{\"question\":\"我的20,000元定投一定会被自动降到10,000元吗？\",\"answer\":\"不会据此直接认定自动降额。公告仅说明超过10,000元的相关申请，管理人有权拒绝；是否受理以实际执行和销售机构处理结果为准。\"},{\"question\":\"什么时候可以恢复原来的定投金额？\",\"answer\":\"公告未给出明确恢复日期，仅说明具体时间将另行公告。\"},{\"question\":\"这次限制会影响哪些业务？\",\"answer\":\"影响范围包括申购、定期定额投资和转换转入的单日合计金额；赎回、转换转出等其他业务照常办理。\"}],\"app_title\":\"恒远均衡成长混合型证券投资基金大额限制公告\",\"app_body\":\"自2026-05-08起，恒远均衡成长混合型证券投资基金对单日每个基金账户累计申购、定期定额投资和转换转入金额实行10,000元上限（超过10,000元的申请，管理人有权拒绝）。赎回、转换转出等其他业务照常办理。恢复原限制安排的具体时间将另行公告。\",\"internal_checks\":[\"核实该定投的实际执行日是否在2026-05-08及之后。\",\"核实是否存在同日其他申购/定投/转换转入金额，按单日每个基金账户累计口径判断。\",\"核实销售机构最终受理/拒绝结果；不补充未披露的A/C合并口径。\"],\"referenced_fact_keys\":[\"limit_start\",\"aggregate_limit\",\"aggregate_scope\",\"limit_exclusive\",\"limit_account_scope\",\"rejection_policy\",\"resume_date\"]}"
+    }
+  ],
+  "source": [
+    {
+      "source_id": "announcement",
+      "page": 3,
+      "text": "恒远均衡成长混合型证券投资基金限制大额申购、定期定额投资和转换转入业务的公告\n公告送出日期：2026 年 5 月 6 日\n1 公告基本信息\n项目 内容\n基金名称 恒远均衡成长混合型证券投资基金\n基金简称 恒远均衡成长混合\n基金主代码 019001\n基金管理人名称 恒远基金管理有限公司\n公告依据 《恒远均衡成长混合型证券投资基金基金合同》\n限制大额申购起始日 2026 年 5 月 8 日\n限制大额定期定额投资起始日 2026 年 5 月 8 日\n限制大额转换转入起始日 2026 年 5 月 8 日\n限制申购金额 10,000 元\n限制定期定额投资金额 10,000 元",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    },
+    {
+      "source_id": "announcement",
+      "page": 4,
+      "text": "项目 内容\n限制转换转入金额 10,000 元\n限制相关业务的原因说明 保护基金份额持有人的利益\n2 其他需要提示的事项\n1. 自 2026 年 5 月 8 日起，本基金管理人将限制接受单日每个基金账户累计申购、定期定额投\n资和转换转入本基金超过 10,000 元的申请，不含 10,000 元。申购、定期定额投资和转换\n转入的申请金额合并计算。\n2. 如单日单个基金账户累计申请金额超过 10,000 元，本基金管理人有权拒绝相关业务申请。\n3. 在本基金限制大额申购、定期定额投资和转换转入业务期间，本基金的赎回、转换转出等其他\n业务照常办理。\n4. 本基金恢复办理大额申购、定期定额投资和转换转入业务的具体时间将另行公告。\n5. 投资人可访问本公司网站或拨打客户服务电话咨询相关情况。\n恒远基金管理有限公司\n2026 年 5 月 6 日",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    }
+  ],
+  "product": [
+    {
+      "source_id": "product",
+      "page": 1,
+      "text": "项目 内容\n基金名称 恒远均衡成长混合型证券投资基金\n基金简称 恒远均衡成长混合\n基金主代码 019001\nA 类基金份额代码 019001\nC 类基金份额代码 019002\n基金管理人 恒远基金管理有限公司\n基金托管人 华南商业银行股份有限公司\n基金合同生效日 2022 年 8 月 10 日",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    },
+    {
+      "source_id": "product",
+      "page": 2,
+      "text": "项目 内容\n产品类型 混合型基金\n风险等级 R3\n原基金经理 张晨、李明\n申购状态 正常开放\n定期定额投资状态 正常开放\n默认分红方式 现金分红\n其他说明 投资者可以申请将分红方式变更为红利再投资",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    }
+  ],
+  "scenario": {
+    "question": "一位用户原来设置了每月 20,000 元的定投计划。请判断本次公告可能对他产生什么影响，并准备一份用户回复。用户还想知道什么时候可以恢复原来的定投金额。",
+    "purchase_amount": null,
+    "recurring_amount": "20000",
+    "transfer_amount": null,
+    "execution_date": null,
+    "holding_shares": null,
+    "eligible_shares": null,
+    "original_method": null,
+    "change_requested_at": null,
+    "registry_method": null,
+    "registry_verified": false
+  },
+  "facts": {
+    "kind": "purchase_limit",
+    "facts": [
+      {
+        "key": "fund_name",
+        "value": "恒远均衡成长混合型证券投资基金",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 3,
+            "quote": "恒远均衡成长混合型证券投资基金限制大额申购、定期定额投资和转换转入业务的公告"
+          }
+        ]
+      },
+      {
+        "key": "fund_code",
+        "value": "019001",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 3,
+            "quote": "基金主代码 019001"
+          }
+        ]
+      },
+      {
+        "key": "announcement_date",
+        "value": "2026-05-06",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 3,
+            "quote": "公告送出日期：2026 年 5 月 6 日"
+          }
+        ]
+      },
+      {
+        "key": "limit_start",
+        "value": "2026-05-08",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 3,
+            "quote": "限制大额申购起始日 2026 年 5 月 8 日"
+          },
+          {
+            "source_id": "announcement",
+            "page": 3,
+            "quote": "限制大额定期定额投资起始日 2026 年 5 月 8 日"
+          },
+          {
+            "source_id": "announcement",
+            "page": 3,
+            "quote": "限制大额转换转入起始日 2026 年 5 月 8 日"
+          }
+        ]
+      },
+      {
+        "key": "purchase_limit",
+        "value": "10000",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 3,
+            "quote": "限制申购金额 10,000 元"
+          }
+        ]
+      },
+      {
+        "key": "recurring_limit",
+        "value": "10000",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 3,
+            "quote": "限制定期定额投资金额 10,000 元"
+          }
+        ]
+      },
+      {
+        "key": "transfer_limit",
+        "value": "10000",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 4,
+            "quote": "限制转换转入金额 10,000 元"
+          }
+        ]
+      },
+      {
+        "key": "aggregate_limit",
+        "value": "10000",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 4,
+            "quote": "单日每个基金账户累计申购、定期定额投资和转换转入本基金超过 10,000 元的申请"
+          },
+          {
+            "source_id": "announcement",
+            "page": 4,
+            "quote": "申购、定期定额投资和转换转入的申请金额合并计算"
+          }
+        ]
+      },
+      {
+        "key": "aggregate_scope",
+        "value": "申购、定期定额投资和转换转入",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 4,
+            "quote": "申购、定期定额投资和转换转入的申请金额合并计算"
+          }
+        ]
+      },
+      {
+        "key": "limit_exclusive",
+        "value": "是",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 4,
+            "quote": "超过 10,000 元的申请，不含 10,000 元"
+          }
+        ]
+      },
+      {
+        "key": "limit_account_scope",
+        "value": "单日每个基金账户累计",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 4,
+            "quote": "限制接受单日每个基金账户累计申购、定期定额投资和转换转入本基金超过 10,000 元的申请"
+          }
+        ]
+      },
+      {
+        "key": "rejection_policy",
+        "value": "有权拒绝相关业务申请",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 4,
+            "quote": "本基金管理人有权拒绝相关业务申请"
+          }
+        ]
+      },
+      {
+        "key": "unaffected_business",
+        "value": "赎回、转换转出等其他业务照常办理",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 4,
+            "quote": "本基金的赎回、转换转出等其他业务照常办理"
+          }
+        ]
+      },
+      {
+        "key": "resume_date",
+        "value": "另行公告",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 4,
+            "quote": "具体时间将另行公告"
+          }
+        ]
+      }
+    ],
+    "missing": [],
+    "conflicts": []
+  },
+  "rules": {
+    "confirmed": [
+      "已提供的同日申购、定投、转换转入金额合计为 20,000.00 元。",
+      "本公告限制起始日为 2026-05-08。",
+      "恢复安排：另行公告。",
+      "公告说明其他业务安排：赎回、转换转出等其他业务照常办理。"
+    ],
+    "conditional": [
+      "如果执行日在限制生效后，已知合计 20,000.00 元触及公告的 10,000.00 元限制条件；管理人可能拒绝相关申请，不能据此认定自动降额、部分成交或已扣款失败。"
+    ],
+    "needs_check": [
+      "尚有同日业务金额未知；已提供金额仅构成已知合计，需核实其他申请。",
+      "请核实定投实际扣款／申请执行日，月度计划金额不能替代实际执行日期。",
+      "核实销售机构的扣款、受理和拒绝处理结果；公告未说明 A/C 类合并口径时，不自行补充。"
+    ],
+    "calculations": {
+      "known_daily_total": "20,000.00",
+      "aggregate_limit": "10,000.00"
+    },
+    "used_fact_keys": [
+      "limit_start",
+      "aggregate_limit",
+      "aggregate_scope",
+      "limit_exclusive",
+      "limit_account_scope",
+      "rejection_policy",
+      "resume_date"
+    ]
+  },
+  "material": {
+    "summary": "该用户每月定投金额为20,000元。公告显示自2026-05-08起，恒远均衡成长混合型证券投资基金对单日每个基金账户累计申购、定投和转换转入合并限制为10,000元（超过10,000元的申请不予接受），因此若该定投在限制生效后执行，可能受到影响；但不应据此认定必然自动降额、部分成交或扣款失败。恢复原定投金额的具体时间为另行公告。",
+    "customer_reply": "您好，您原先设置的每月20,000元定投，若在2026-05-08及之后执行，可能会受到本次大额限制影响。公告规定，单日每个基金账户累计申购、定投和转换转入本基金超过10,000元的申请，管理人有权拒绝相关业务申请。由于您提供的是计划金额，实际是否受影响还要看该笔定投的实际执行日及销售机构的受理结果。关于恢复原来的定投金额，公告仅说明“具体时间将另行公告”，目前还不能确定恢复日期。",
+    "faqs": [
+      {
+        "question": "我的20,000元定投一定会被自动降到10,000元吗？",
+        "answer": "不会据此直接认定自动降额。公告仅说明超过10,000元的相关申请，管理人有权拒绝；是否受理以实际执行和销售机构处理结果为准。"
+      },
+      {
+        "question": "什么时候可以恢复原来的定投金额？",
+        "answer": "公告未给出明确恢复日期，仅说明具体时间将另行公告。"
+      },
+      {
+        "question": "这次限制会影响哪些业务？",
+        "answer": "影响范围包括申购、定期定额投资和转换转入的单日合计金额；赎回、转换转出等其他业务照常办理。"
+      }
+    ],
+    "app_title": "恒远均衡成长混合型证券投资基金大额限制公告",
+    "app_body": "自2026-05-08起，恒远均衡成长混合型证券投资基金对单日每个基金账户累计申购、定期定额投资和转换转入金额实行10,000元上限（超过10,000元的申请，管理人有权拒绝）。赎回、转换转出等其他业务照常办理。恢复原限制安排的具体时间将另行公告。",
+    "internal_checks": [
+      "核实该定投的实际执行日是否在2026-05-08及之后。",
+      "核实是否存在同日其他申购/定投/转换转入金额，按单日每个基金账户累计口径判断。",
+      "核实销售机构最终受理/拒绝结果；不补充未披露的A/C合并口径。"
+    ],
+    "referenced_fact_keys": [
+      "limit_start",
+      "aggregate_limit",
+      "aggregate_scope",
+      "limit_exclusive",
+      "limit_account_scope",
+      "rejection_policy",
+      "resume_date"
+    ]
+  },
+  "business_review": "pending"
+}

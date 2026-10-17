@@ -1,0 +1,365 @@
+{
+  "is_real_model_run": true,
+  "records": [
+    {
+      "request_id": "d980d955-2cb7-43ec-9aa5-37aa34a3243a",
+      "stage": "extract",
+      "timestamp": "2026-10-17T12:16:32.291951+00:00",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "prompt_version": "2026-10-17.v1",
+      "input_hash": "d1975a2b753adb682957ec258b45ced0c8c900c40c048275b30a7bb69f6a9a53",
+      "status": "completed",
+      "elapsed_seconds": 4.167,
+      "input_tokens": 2196,
+      "cached_input_tokens": 2048,
+      "output_tokens": 997,
+      "estimated_usd": "0.0047511",
+      "error_code": null,
+      "response_id": "resp_0427c496c911ff91016ad367207f4487d09fe3b36033fe1fb5",
+      "reused": false,
+      "model_output_text": "{\"kind\":\"dividend\",\"facts\":[{\"key\":\"fund_name\",\"value\":\"恒远均衡成长混合型证券投资基金\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":4,\"quote\":\"恒远均衡成长混合型证券投资基金 2026 年度第一次分红公告\"}]},{\"key\":\"fund_code\",\"value\":\"019001\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":4,\"quote\":\"基金主代码 019001\"}]},{\"key\":\"announcement_date\",\"value\":\"2026-06-16\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":4,\"quote\":\"公告送出日期：2026 年 6 月 16 日\"}]},{\"key\":\"record_date\",\"value\":\"2026-06-18\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":5,\"quote\":\"权益登记日 2026 年 6 月 18 日\"}]},{\"key\":\"ex_date\",\"value\":\"2026-06-18\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":5,\"quote\":\"除息日 2026 年 6 月 18 日\"}]},{\"key\":\"payment_date\",\"value\":\"2026-06-22\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":5,\"quote\":\"现金红利发放日 2026 年 6 月 22 日\"}]},{\"key\":\"dividend_per\",\"value\":\"0.30\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":5,\"quote\":\"每 10 份基金份额分配 0.30 元\"}]},{\"key\":\"dividend_base\",\"value\":\"10\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":5,\"quote\":\"每 10 份基金份额分配 0.30 元\"}]},{\"key\":\"default_method\",\"value\":\"现金分红\",\"origin\":\"product\",\"citations\":[{\"source_id\":\"product\",\"page\":2,\"quote\":\"默认分红方式 现金分红\"}]},{\"key\":\"method_effective_rule\",\"value\":\"最终的分红方式以本基金注册登记机构的记录为准\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":5,\"quote\":\"投资者最终的分红方式以本基金注册登记机构的记录为准。\"}]},{\"key\":\"method_change_rule\",\"value\":\"工作日交易时间内通过销售机构修改分红方式；在权益登记日前办理相关手续\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":6,\"quote\":\"投资者可以在工作日交易时间内通过销售机构修改分红方式。\"},{\"source_id\":\"announcement\",\"page\":6,\"quote\":\"希望变更分红方式的投资者，应在权益登记日前办理相关手续。\"}]},{\"key\":\"reinvest_basis\",\"value\":\"2026-06-18除息后的基金份额净值\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":5,\"quote\":\"将以 2026 年 6 月 18 日除息后的基金份额净值为计算基准确定再投资份额。\"}]},{\"key\":\"reinvest_confirm_date\",\"value\":\"2026-06-19\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":5,\"quote\":\"注册登记机构将于 2026 年 6 月 19 日对红利再投资份额进行确认\"}]},{\"key\":\"reinvest_query_date\",\"value\":\"2026-06-22\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":5,\"quote\":\"2026 年 6 月 22 日起投资者可以查询\"}]},{\"key\":\"eligibility_rule\",\"value\":\"权益登记日在本基金注册登记机构登记在册的全体基金份额持有人\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":5,\"quote\":\"分红对象 权益登记日在本基金注册登记机构登记在册的全体基金份额持有人\"}]},{\"key\":\"payment_definition\",\"value\":\"现金红利从基金托管账户划出的日期\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":5,\"quote\":\"现金红利发放日是指现金红利从基金托管账户划出的日期。\"}]}],\"missing\":[\"departure_reason\",\"departure_date\",\"manager_leaving\",\"manager_remaining\",\"limit_start\",\"purchase_limit\",\"recurring_limit\",\"transfer_limit\",\"aggregate_limit\",\"aggregate_scope\",\"limit_exclusive\",\"limit_account_scope\",\"rejection_policy\",\"unaffected_business\",\"resume_date\"],\"conflicts\":[]}",
+      "validation_notes": []
+    },
+    {
+      "request_id": "6e7966e3-af78-4a92-9c72-95ae2fdf5c53",
+      "stage": "generate",
+      "timestamp": "2026-10-17T12:16:36.463458+00:00",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "prompt_version": "2026-10-17.v1",
+      "input_hash": "fac854bff544f31e48352bb79b29a5d471f42c382b73dbef1f3d9dcfce265994",
+      "status": "completed",
+      "elapsed_seconds": 3.013,
+      "input_tokens": 2231,
+      "cached_input_tokens": 0,
+      "output_tokens": 669,
+      "estimated_usd": "0.00468375",
+      "error_code": null,
+      "response_id": "resp_07f4f196506b3a28016ad36724a35087d08635157dde4820cc",
+      "reused": false,
+      "model_output_text": "{\"summary\":\"若该用户在权益登记日在册且25000份均具分红资格，本次现金红利为750.00元；是否收到现金或红利再投资份额，需以权益登记日前最后一次有效分红方式及注册登记机构记录为准。用户称2026-06-17 16:00提交变更申请，但申请时间不等于生效时间，不能仅据此判断有效/无效。\",\"customer_reply\":\"本次公告显示：每10份基金份额分配0.30元。若您在权益登记日在册且25,000份均符合分红资格，本次分红金额为750.00元。您最终收到现金还是红利再投资份额，要看权益登记日前最后一次有效分红方式以及注册登记机构记录。您提到在2026-06-17 16:00申请改为红利再投资，仅凭该时间不能直接判断申请是否已生效；现金红利发放日为2026-06-22，但这不等于实际到账日。\",\"faqs\":[{\"question\":\"本次分红金额怎么计算？\",\"answer\":\"按公告口径，每10份基金份额分配0.30元。若25,000份均符合资格，则分红金额为750.00元。\"},{\"question\":\"我会收到现金还是基金份额？\",\"answer\":\"以权益登记日前最后一次有效分红方式及注册登记机构记录为准。若登记为现金分红，则发现金红利；若登记为红利再投资，则按公告所述规则处理。\"},{\"question\":\"2026-06-17 16:00提交的方式变更一定有效吗？\",\"answer\":\"不能仅凭该时间判断有效或无效。需核实销售机构受理情况、回执及注册登记机构记录。\"}],\"app_title\":\"恒远均衡成长混合型证券投资基金分红公告\",\"app_body\":\"恒远均衡成长混合型证券投资基金（基金代码019001）2026年度第一次分红：权益登记日为2026-06-18，除息日为2026-06-18，现金红利发放日为2026-06-22。每10份基金份额分配0.30元。分红对象为权益登记日在注册登记机构登记在册的全体基金份额持有人。投资者最终的分红方式以注册登记机构记录为准；可在工作日交易时间内通过销售机构修改分红方式，并应在权益登记日前办理相关手续。\",\"internal_checks\":[\"核实该持有人在权益登记日在册且份额是否全部具备分红资格。\",\"核实其分红方式变更申请是否在权益登记日前被销售机构有效受理并写入登记记录。\",\"确认是否存在申购、赎回或转换等影响分红资格的事项。\"],\"referenced_fact_keys\":[\"dividend_per\",\"dividend_base\",\"record_date\",\"payment_date\",\"method_effective_rule\",\"method_change_rule\",\"eligibility_rule\"]}",
+      "validation_notes": []
+    }
+  ],
+  "source": [
+    {
+      "source_id": "announcement",
+      "page": 4,
+      "text": "恒远均衡成长混合型证券投资基金 2026 年度第一次分红公告\n公告送出日期：2026 年 6 月 16 日\n1 公告基本信息\n项目 内容\n基金名称 恒远均衡成长混合型证券投资基金\n基金简称 恒远均衡成长混合\n基金主代码 019001\n基金合同生效日 2022 年 8 月 10 日\n基金管理人名称 恒远基金管理有限公司\n基金托管人名称 华南商业银行股份有限公司",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    },
+    {
+      "source_id": "announcement",
+      "page": 5,
+      "text": "项目 内容\n公告依据 《恒远均衡成长混合型证券投资基金基金合同》\n收益分配基准日 2026 年 6 月 10 日\n基准日基金份额净值 1.1265 元\n基准日基金可供分配利润 38,520,416.75 元\n本次分红方案 每 10 份基金份额分配 0.30 元\n有关年度分红次数的说明 本次分红为 2026 年度第一次分红\n2 与分红相关的其他信息\n项目 内容\n权益登记日 2026 年 6 月 18 日\n除息日 2026 年 6 月 18 日\n现金红利发放日 2026 年 6 月 22 日\n分红对象 权益登记日在本基金注册登记机构登记在册的全体基金份额持有人\n红利再投资相关事项\n选择红利再投资方式的投资者，将以 2026 年 6 月 18 日除息后的基金份额净\n值为计算基准确定再投资份额。注册登记机构将于 2026 年 6 月 19 日对红利\n再投资份额进行确认并通知各销售机构，2026 年 6 月 22 日起投资者可以查询\n税收相关事项 根据相关规定，基金向投资者分配的基金收益暂免征收所得税\n费用相关事项 本次分红免收分红手续费；选择红利再投资的投资者，其红利再投资份额免收申\n购费用\n3 其他需要提示的事项\n1. 现金红利发放日是指现金红利从基金托管账户划出的日期。\n2. 权益登记日申请申购或转换转入的基金份额不享有本次分红权益；权益登记日申请赎回或转换\n转出的基金份额享有本次分红权益。\n3. 本基金的分红方式包括现金分红和红利再投资。未选择具体分红方式的投资者，默认采用现金\n分红方式。投资者最终的分红方式以本基金注册登记机构的记录为准。",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    },
+    {
+      "source_id": "announcement",
+      "page": 6,
+      "text": "4. 投资者可以在工作日交易时间内通过销售机构修改分红方式。本次分红确认的方式，按照注册\n登记机构在权益登记日前记录的最后一次有效选择为准。希望变更分红方式的投资者，应在权\n益登记日前办理相关手续。\n5. 投资人可访问本公司网站或拨打客户服务电话咨询相关情况。\n恒远基金管理有限公司\n2026 年 6 月 16 日",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    }
+  ],
+  "product": [
+    {
+      "source_id": "product",
+      "page": 1,
+      "text": "项目 内容\n基金名称 恒远均衡成长混合型证券投资基金\n基金简称 恒远均衡成长混合\n基金主代码 019001\nA 类基金份额代码 019001\nC 类基金份额代码 019002\n基金管理人 恒远基金管理有限公司\n基金托管人 华南商业银行股份有限公司\n基金合同生效日 2022 年 8 月 10 日",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    },
+    {
+      "source_id": "product",
+      "page": 2,
+      "text": "项目 内容\n产品类型 混合型基金\n风险等级 R3\n原基金经理 张晨、李明\n申购状态 正常开放\n定期定额投资状态 正常开放\n默认分红方式 现金分红\n其他说明 投资者可以申请将分红方式变更为红利再投资",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    }
+  ],
+  "scenario": {
+    "question": "一位用户在权益登记日持有 25,000 份基金份额。他想知道本次分红金额，以及自己会收到现金还是基金份额。用户表示，他在 2026 年 6 月 17 日 16:00 申请将分红方式改为红利再投资。",
+    "purchase_amount": null,
+    "recurring_amount": null,
+    "transfer_amount": null,
+    "execution_date": null,
+    "holding_shares": "25000",
+    "eligible_shares": null,
+    "original_method": null,
+    "change_requested_at": "2026-06-17 16:00",
+    "registry_method": null,
+    "registry_verified": false
+  },
+  "facts": {
+    "kind": "dividend",
+    "facts": [
+      {
+        "key": "fund_name",
+        "value": "恒远均衡成长混合型证券投资基金",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 4,
+            "quote": "恒远均衡成长混合型证券投资基金 2026 年度第一次分红公告"
+          }
+        ]
+      },
+      {
+        "key": "fund_code",
+        "value": "019001",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 4,
+            "quote": "基金主代码 019001"
+          }
+        ]
+      },
+      {
+        "key": "announcement_date",
+        "value": "2026-06-16",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 4,
+            "quote": "公告送出日期：2026 年 6 月 16 日"
+          }
+        ]
+      },
+      {
+        "key": "record_date",
+        "value": "2026-06-18",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 5,
+            "quote": "权益登记日 2026 年 6 月 18 日"
+          }
+        ]
+      },
+      {
+        "key": "ex_date",
+        "value": "2026-06-18",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 5,
+            "quote": "除息日 2026 年 6 月 18 日"
+          }
+        ]
+      },
+      {
+        "key": "payment_date",
+        "value": "2026-06-22",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 5,
+            "quote": "现金红利发放日 2026 年 6 月 22 日"
+          }
+        ]
+      },
+      {
+        "key": "dividend_per",
+        "value": "0.30",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 5,
+            "quote": "每 10 份基金份额分配 0.30 元"
+          }
+        ]
+      },
+      {
+        "key": "dividend_base",
+        "value": "10",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 5,
+            "quote": "每 10 份基金份额分配 0.30 元"
+          }
+        ]
+      },
+      {
+        "key": "default_method",
+        "value": "现金分红",
+        "origin": "product",
+        "citations": [
+          {
+            "source_id": "product",
+            "page": 2,
+            "quote": "默认分红方式 现金分红"
+          }
+        ]
+      },
+      {
+        "key": "method_effective_rule",
+        "value": "最终的分红方式以本基金注册登记机构的记录为准",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 5,
+            "quote": "投资者最终的分红方式以本基金注册登记机构的记录为准。"
+          }
+        ]
+      },
+      {
+        "key": "method_change_rule",
+        "value": "工作日交易时间内通过销售机构修改分红方式；在权益登记日前办理相关手续",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 6,
+            "quote": "投资者可以在工作日交易时间内通过销售机构修改分红方式。"
+          },
+          {
+            "source_id": "announcement",
+            "page": 6,
+            "quote": "希望变更分红方式的投资者，应在权益登记日前办理相关手续。"
+          }
+        ]
+      },
+      {
+        "key": "reinvest_basis",
+        "value": "2026-06-18除息后的基金份额净值",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 5,
+            "quote": "将以 2026 年 6 月 18 日除息后的基金份额净值为计算基准确定再投资份额。"
+          }
+        ]
+      },
+      {
+        "key": "reinvest_confirm_date",
+        "value": "2026-06-19",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 5,
+            "quote": "注册登记机构将于 2026 年 6 月 19 日对红利再投资份额进行确认"
+          }
+        ]
+      },
+      {
+        "key": "reinvest_query_date",
+        "value": "2026-06-22",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 5,
+            "quote": "2026 年 6 月 22 日起投资者可以查询"
+          }
+        ]
+      },
+      {
+        "key": "eligibility_rule",
+        "value": "权益登记日在本基金注册登记机构登记在册的全体基金份额持有人",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 5,
+            "quote": "分红对象 权益登记日在本基金注册登记机构登记在册的全体基金份额持有人"
+          }
+        ]
+      },
+      {
+        "key": "payment_definition",
+        "value": "现金红利从基金托管账户划出的日期",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 5,
+            "quote": "现金红利发放日是指现金红利从基金托管账户划出的日期。"
+          }
+        ]
+      }
+    ],
+    "missing": [],
+    "conflicts": []
+  },
+  "rules": {
+    "confirmed": [
+      "用户称在 2026-06-17 16:00（中国当地时间）提交分红方式变更申请。",
+      "公告现金红利发放日为 2026-06-22；这不等于用户账户实际到账日。",
+      "权益登记日为 2026-06-18。"
+    ],
+    "conditional": [
+      "如果 25000 份均符合本次分红资格，分红金额为 750.00 元。",
+      "未有效选择分红方式时，公告／产品资料所列默认为现金分红；不能直接认定该用户采用默认方式。",
+      "如本次有效方式为红利再投资，将依据公告所述除息后净值确定份额；未提供该净值，不能计算具体再投资份额。"
+    ],
+    "needs_check": [
+      "请确认权益登记日在册及申购、赎回／转换申请对分红资格的影响。",
+      "现金还是基金份额，须以本次权益登记日前最后一次有效选择及注册登记机构记录核实。",
+      "申请时间不等于生效时间；核查销售机构受理规则、回执和登记结果，不能仅凭 16:00 或常见截止时间判定有效／无效。"
+    ],
+    "calculations": {
+      "dividend_amount": "750.00",
+      "dividend_formula": "25000 ÷ 10 × 0.30 = 750.00 元"
+    },
+    "used_fact_keys": [
+      "dividend_per",
+      "dividend_base",
+      "record_date",
+      "payment_date",
+      "method_effective_rule",
+      "method_change_rule",
+      "reinvest_basis",
+      "eligibility_rule"
+    ]
+  },
+  "material": {
+    "summary": "若该用户在权益登记日在册且25000份均具分红资格，本次现金红利为750.00元；是否收到现金或红利再投资份额，需以权益登记日前最后一次有效分红方式及注册登记机构记录为准。用户称2026-06-17 16:00提交变更申请，但申请时间不等于生效时间，不能仅据此判断有效/无效。",
+    "customer_reply": "本次公告显示：每10份基金份额分配0.30元。若您在权益登记日在册且25,000份均符合分红资格，本次分红金额为750.00元。您最终收到现金还是红利再投资份额，要看权益登记日前最后一次有效分红方式以及注册登记机构记录。您提到在2026-06-17 16:00申请改为红利再投资，仅凭该时间不能直接判断申请是否已生效；现金红利发放日为2026-06-22，但这不等于实际到账日。",
+    "faqs": [
+      {
+        "question": "本次分红金额怎么计算？",
+        "answer": "按公告口径，每10份基金份额分配0.30元。若25,000份均符合资格，则分红金额为750.00元。"
+      },
+      {
+        "question": "我会收到现金还是基金份额？",
+        "answer": "以权益登记日前最后一次有效分红方式及注册登记机构记录为准。若登记为现金分红，则发现金红利；若登记为红利再投资，则按公告所述规则处理。"
+      },
+      {
+        "question": "2026-06-17 16:00提交的方式变更一定有效吗？",
+        "answer": "不能仅凭该时间判断有效或无效。需核实销售机构受理情况、回执及注册登记机构记录。"
+      }
+    ],
+    "app_title": "恒远均衡成长混合型证券投资基金分红公告",
+    "app_body": "恒远均衡成长混合型证券投资基金（基金代码019001）2026年度第一次分红：权益登记日为2026-06-18，除息日为2026-06-18，现金红利发放日为2026-06-22。每10份基金份额分配0.30元。分红对象为权益登记日在注册登记机构登记在册的全体基金份额持有人。投资者最终的分红方式以注册登记机构记录为准；可在工作日交易时间内通过销售机构修改分红方式，并应在权益登记日前办理相关手续。",
+    "internal_checks": [
+      "核实该持有人在权益登记日在册且份额是否全部具备分红资格。",
+      "核实其分红方式变更申请是否在权益登记日前被销售机构有效受理并写入登记记录。",
+      "确认是否存在申购、赎回或转换等影响分红资格的事项。"
+    ],
+    "referenced_fact_keys": [
+      "dividend_per",
+      "dividend_base",
+      "record_date",
+      "payment_date",
+      "method_effective_rule",
+      "method_change_rule",
+      "eligibility_rule"
+    ]
+  },
+  "business_review": "pending"
+}

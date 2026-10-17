@@ -1,0 +1,228 @@
+{
+  "is_real_model_run": true,
+  "records": [
+    {
+      "request_id": "0cbf1090-2307-4f0a-8a9d-e8a8abe407fb",
+      "stage": "extract",
+      "timestamp": "2026-10-17T12:15:06.099588+00:00",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "prompt_version": "2026-10-17.v1",
+      "input_hash": "fdd008de419f30a5cf6351b4a60506642ac1af433a84db46c744880aecfa9457",
+      "status": "completed",
+      "elapsed_seconds": 1.777,
+      "input_tokens": 1747,
+      "cached_input_tokens": 1536,
+      "output_tokens": 337,
+      "estimated_usd": "0.00178995",
+      "error_code": null,
+      "response_id": "resp_043fa31a660968b0016ad366ca4a5487d0a17f125596c95a67",
+      "reused": false,
+      "model_output_text": "{\"kind\":\"manager_change\",\"facts\":[{\"key\":\"fund_name\",\"value\":\"恒远均衡成长混合型证券投资基金\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":2,\"quote\":\"基金名称 恒远均衡成长混合型证券投资基金\"}]},{\"key\":\"fund_code\",\"value\":\"019001\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":2,\"quote\":\"基金主代码 019001\"}]},{\"key\":\"announcement_date\",\"value\":\"2026-04-15\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":2,\"quote\":\"公告送出日期：2026 年 4 月 15 日\"}]},{\"key\":\"manager_leaving\",\"value\":\"李明\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":2,\"quote\":\"离任基金经理姓名 李明\"}]},{\"key\":\"manager_remaining\",\"value\":\"张晨\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":2,\"quote\":\"共同管理本基金的其他基金经\\n理姓名 张晨\"}]},{\"key\":\"departure_reason\",\"value\":\"工作安排\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":3,\"quote\":\"离任原因 工作安排\"}]},{\"key\":\"departure_date\",\"value\":\"2026-04-15\",\"origin\":\"announcement\",\"citations\":[{\"source_id\":\"announcement\",\"page\":3,\"quote\":\"离任日期 2026 年 4 月 15 日\"}]}],\"missing\":[],\"conflicts\":[]}"
+    },
+    {
+      "request_id": "33678d40-5ac3-4f8d-b01e-6da8a7e867bc",
+      "stage": "generate",
+      "timestamp": "2026-10-17T12:15:07.877011+00:00",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "prompt_version": "2026-10-17.v1",
+      "input_hash": "96c75f3774277cb677a3918c5da626e818ae6a563a2a2e6c8ae96a66c33bcc21",
+      "status": "completed",
+      "elapsed_seconds": 2.425,
+      "input_tokens": 1235,
+      "cached_input_tokens": 1024,
+      "output_tokens": 407,
+      "estimated_usd": "0.00206655",
+      "error_code": null,
+      "response_id": "resp_0e95875949dcecea016ad366cc0e3487d0a319a7aba0a0d5c0",
+      "reused": false,
+      "model_output_text": "{\"summary\":\"已确认基金经理李明于2026-04-15离任，张晨继续管理；公告载明离任原因是“工作安排”。公告不能证明离任与产品表现有关，也不能据此判断基金后续一定涨跌。\",\"customer_reply\":\"您好，关于这份公告：基金经理李明已于2026-04-15离任，张晨继续管理本基金。公告中披露的离任原因是“工作安排”。\\n\\n需要说明的是，公告本身不能证明这次离任是因为产品表现不好，也不能据此判断基金后续一定会上涨或下跌。如您希望进一步了解离任背景，建议以基金管理人的正式说明为准。\",\"faqs\":[{\"question\":\"基金经理离任是不是因为产品表现不好？\",\"answer\":\"公告只载明离任原因是“工作安排”，不能据此推断与产品表现有关。\"},{\"question\":\"基金后面是不是一定会跌？\",\"answer\":\"不能。公告不能用来判断基金后续走势，也不能据此承诺或预测涨跌。\"},{\"question\":\"现在是谁继续管理这只基金？\",\"answer\":\"公告显示张晨继续共同管理本基金。\"}],\"app_title\":\"基金经理变更公告说明\",\"app_body\":\"本基金公告显示，基金经理李明已于2026-04-15离任，张晨继续管理本基金。公告披露的离任原因是“工作安排”。公告本身不能证明离任与产品表现有关，也不能据此判断基金后续一定上涨或下跌。\",\"internal_checks\":[\"核对公告中的基金经理离任、继续管理人、离任原因与日期。\",\"确认不加入业绩判断、涨跌预测或离任背景推测。\"],\"referenced_fact_keys\":[\"manager_leaving\",\"manager_remaining\",\"departure_reason\",\"departure_date\"]}"
+    }
+  ],
+  "source": [
+    {
+      "source_id": "announcement",
+      "page": 2,
+      "text": "恒远均衡成长混合型证券投资基金基金经理变更公告\n公告送出日期：2026 年 4 月 15 日\n1 公告基本信息\n项目 内容\n基金名称 恒远均衡成长混合型证券投资基金\n基金简称 恒远均衡成长混合\n基金主代码 019001\n基金管理人名称 恒远基金管理有限公司\n公告依据 《公开募集证券投资基金信息披露管理办法》《基金管理公司投资管理人员管理\n指导意见》《恒远均衡成长混合型证券投资基金基金合同》\n基金经理变更类型 解聘基金经理\n离任基金经理姓名 李明\n共同管理本基金的其他基金经\n理姓名 张晨\n2 离任基金经理的相关信息\n项目 内容\n离任基金经理姓名 李明",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    },
+    {
+      "source_id": "announcement",
+      "page": 3,
+      "text": "项目 内容\n离任原因 工作安排\n离任日期 2026 年 4 月 15 日\n转任本公司其他工作岗位的说明 —\n是否已按规定在中国证券投资基金业协会\n办理变更手续 是\n3 其他需要说明的事项\n上述事项已按规定在中国证券投资基金业协会办理相关手续，调整自 2026 年 4 月 15 日起生效。\n恒远基金管理有限公司\n2026 年 4 月 15 日",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    }
+  ],
+  "product": [
+    {
+      "source_id": "product",
+      "page": 1,
+      "text": "项目 内容\n基金名称 恒远均衡成长混合型证券投资基金\n基金简称 恒远均衡成长混合\n基金主代码 019001\nA 类基金份额代码 019001\nC 类基金份额代码 019002\n基金管理人 恒远基金管理有限公司\n基金托管人 华南商业银行股份有限公司\n基金合同生效日 2022 年 8 月 10 日",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    },
+    {
+      "source_id": "product",
+      "page": 2,
+      "text": "项目 内容\n产品类型 混合型基金\n风险等级 R3\n原基金经理 张晨、李明\n申购状态 正常开放\n定期定额投资状态 正常开放\n默认分红方式 现金分红\n其他说明 投资者可以申请将分红方式变更为红利再投资",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    }
+  ],
+  "scenario": {
+    "question": "请帮我整理这份公告，准备一份可以提供给客服和 App 运营人员使用的材料。用户可能会问：基金经理离任是不是因为产品表现不好？基金后面是不是一定会跌？",
+    "purchase_amount": null,
+    "recurring_amount": null,
+    "transfer_amount": null,
+    "execution_date": null,
+    "holding_shares": null,
+    "eligible_shares": null,
+    "original_method": null,
+    "change_requested_at": null,
+    "registry_method": null,
+    "registry_verified": false
+  },
+  "facts": {
+    "kind": "manager_change",
+    "facts": [
+      {
+        "key": "fund_name",
+        "value": "恒远均衡成长混合型证券投资基金",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 2,
+            "quote": "基金名称 恒远均衡成长混合型证券投资基金"
+          }
+        ]
+      },
+      {
+        "key": "fund_code",
+        "value": "019001",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 2,
+            "quote": "基金主代码 019001"
+          }
+        ]
+      },
+      {
+        "key": "announcement_date",
+        "value": "2026-04-15",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 2,
+            "quote": "公告送出日期：2026 年 4 月 15 日"
+          }
+        ]
+      },
+      {
+        "key": "manager_leaving",
+        "value": "李明",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 2,
+            "quote": "离任基金经理姓名 李明"
+          }
+        ]
+      },
+      {
+        "key": "manager_remaining",
+        "value": "张晨",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 2,
+            "quote": "共同管理本基金的其他基金经\n理姓名 张晨"
+          }
+        ]
+      },
+      {
+        "key": "departure_reason",
+        "value": "工作安排",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 3,
+            "quote": "离任原因 工作安排"
+          }
+        ]
+      },
+      {
+        "key": "departure_date",
+        "value": "2026-04-15",
+        "origin": "announcement",
+        "citations": [
+          {
+            "source_id": "announcement",
+            "page": 3,
+            "quote": "离任日期 2026 年 4 月 15 日"
+          }
+        ]
+      }
+    ],
+    "missing": [],
+    "conflicts": []
+  },
+  "rules": {
+    "confirmed": [
+      "离任基金经理：李明。",
+      "继续管理的基金经理：张晨。",
+      "公告所载离任原因：工作安排。",
+      "离任日期：2026-04-15。",
+      "公告不能证明离任与产品表现有关，也不能据此判断基金后续一定下跌或上涨。"
+    ],
+    "conditional": [],
+    "needs_check": [
+      "如需进一步解释离任背景，应核实基金管理人正式说明，不能编造原因或业绩判断。"
+    ],
+    "calculations": {},
+    "used_fact_keys": [
+      "manager_leaving",
+      "manager_remaining",
+      "departure_reason",
+      "departure_date"
+    ]
+  },
+  "material": {
+    "summary": "已确认基金经理李明于2026-04-15离任，张晨继续管理；公告载明离任原因是“工作安排”。公告不能证明离任与产品表现有关，也不能据此判断基金后续一定涨跌。",
+    "customer_reply": "您好，关于这份公告：基金经理李明已于2026-04-15离任，张晨继续管理本基金。公告中披露的离任原因是“工作安排”。\n\n需要说明的是，公告本身不能证明这次离任是因为产品表现不好，也不能据此判断基金后续一定会上涨或下跌。如您希望进一步了解离任背景，建议以基金管理人的正式说明为准。",
+    "faqs": [
+      {
+        "question": "基金经理离任是不是因为产品表现不好？",
+        "answer": "公告只载明离任原因是“工作安排”，不能据此推断与产品表现有关。"
+      },
+      {
+        "question": "基金后面是不是一定会跌？",
+        "answer": "不能。公告不能用来判断基金后续走势，也不能据此承诺或预测涨跌。"
+      },
+      {
+        "question": "现在是谁继续管理这只基金？",
+        "answer": "公告显示张晨继续共同管理本基金。"
+      }
+    ],
+    "app_title": "基金经理变更公告说明",
+    "app_body": "本基金公告显示，基金经理李明已于2026-04-15离任，张晨继续管理本基金。公告披露的离任原因是“工作安排”。公告本身不能证明离任与产品表现有关，也不能据此判断基金后续一定上涨或下跌。",
+    "internal_checks": [
+      "核对公告中的基金经理离任、继续管理人、离任原因与日期。",
+      "确认不加入业绩判断、涨跌预测或离任背景推测。"
+    ],
+    "referenced_fact_keys": [
+      "manager_leaving",
+      "manager_remaining",
+      "departure_reason",
+      "departure_date"
+    ]
+  },
+  "business_review": "pending"
+}

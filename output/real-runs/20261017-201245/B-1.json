@@ -1,0 +1,71 @@
+{
+  "is_real_model_run": true,
+  "records": [
+    {
+      "request_id": "5ccd892e-9084-407a-ac0c-f6f7d70c0e70",
+      "stage": "extract",
+      "timestamp": "2026-10-17T12:12:45.830515+00:00",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "prompt_version": "2026-10-17.v1",
+      "input_hash": "5be9810b2e2270b7811e9879c49aee7201506d426ccfc5e05afe8af5a0951a8a",
+      "status": "failed",
+      "elapsed_seconds": 4.474,
+      "input_tokens": 1857,
+      "cached_input_tokens": 0,
+      "output_tokens": 853,
+      "estimated_usd": "0.00523125",
+      "error_code": "invalid_output",
+      "response_id": "resp_067428755fd09b44016ad3663ef63087d08e037a97e218bac4",
+      "reused": false
+    }
+  ],
+  "source": [
+    {
+      "source_id": "announcement",
+      "page": 3,
+      "text": "恒远均衡成长混合型证券投资基金限制大额申购、定期定额投资和转换转入业务的公告\n公告送出日期：2026 年 5 月 6 日\n1 公告基本信息\n项目 内容\n基金名称 恒远均衡成长混合型证券投资基金\n基金简称 恒远均衡成长混合\n基金主代码 019001\n基金管理人名称 恒远基金管理有限公司\n公告依据 《恒远均衡成长混合型证券投资基金基金合同》\n限制大额申购起始日 2026 年 5 月 8 日\n限制大额定期定额投资起始日 2026 年 5 月 8 日\n限制大额转换转入起始日 2026 年 5 月 8 日\n限制申购金额 10,000 元\n限制定期定额投资金额 10,000 元",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    },
+    {
+      "source_id": "announcement",
+      "page": 4,
+      "text": "项目 内容\n限制转换转入金额 10,000 元\n限制相关业务的原因说明 保护基金份额持有人的利益\n2 其他需要提示的事项\n1. 自 2026 年 5 月 8 日起，本基金管理人将限制接受单日每个基金账户累计申购、定期定额投\n资和转换转入本基金超过 10,000 元的申请，不含 10,000 元。申购、定期定额投资和转换\n转入的申请金额合并计算。\n2. 如单日单个基金账户累计申请金额超过 10,000 元，本基金管理人有权拒绝相关业务申请。\n3. 在本基金限制大额申购、定期定额投资和转换转入业务期间，本基金的赎回、转换转出等其他\n业务照常办理。\n4. 本基金恢复办理大额申购、定期定额投资和转换转入业务的具体时间将另行公告。\n5. 投资人可访问本公司网站或拨打客户服务电话咨询相关情况。\n恒远基金管理有限公司\n2026 年 5 月 6 日",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    }
+  ],
+  "product": [
+    {
+      "source_id": "product",
+      "page": 1,
+      "text": "项目 内容\n基金名称 恒远均衡成长混合型证券投资基金\n基金简称 恒远均衡成长混合\n基金主代码 019001\nA 类基金份额代码 019001\nC 类基金份额代码 019002\n基金管理人 恒远基金管理有限公司\n基金托管人 华南商业银行股份有限公司\n基金合同生效日 2022 年 8 月 10 日",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    },
+    {
+      "source_id": "product",
+      "page": 2,
+      "text": "项目 内容\n产品类型 混合型基金\n风险等级 R3\n原基金经理 张晨、李明\n申购状态 正常开放\n定期定额投资状态 正常开放\n默认分红方式 现金分红\n其他说明 投资者可以申请将分红方式变更为红利再投资",
+      "label": "基金公告运营助手.pdf",
+      "is_original": true
+    }
+  ],
+  "scenario": {
+    "question": "一位用户原来设置了每月 20,000 元的定投计划。请判断本次公告可能对他产生什么影响，并准备一份用户回复。用户还想知道什么时候可以恢复原来的定投金额。",
+    "purchase_amount": null,
+    "recurring_amount": "20000",
+    "transfer_amount": null,
+    "execution_date": null,
+    "holding_shares": null,
+    "eligible_shares": null,
+    "original_method": null,
+    "change_requested_at": null,
+    "registry_method": null,
+    "registry_verified": false
+  },
+  "facts": null,
+  "rules": null,
+  "material": null,
+  "business_review": "pending"
+}
